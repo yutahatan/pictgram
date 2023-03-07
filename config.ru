@@ -7,8 +7,3 @@ run Rails.application
 Rails.application.routes.draw do
   root 'pages#index'
 end
-
-Rails.application.routes.draw do
-  root 'pages#index'
-  get 'pages/link'
-end
